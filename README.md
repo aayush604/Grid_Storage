@@ -77,7 +77,7 @@ utility-scale storage and grid buildout, not distributed batteries alone.
 
 ## Sources
 
-- Mercom India / developers-to-CEA reporting, Jan 2026 — [link](https://cea.nic.in/wp-content/uploads/rpm_division/2026/04/Quarterly_Report_on_Under_Construction_Renewable_Energy_Projects_as_on_March_2026.pdf)
+- Mercom India / developers-to-CEA reporting, Jan 2026 — [link](https://www.mercomindia.com/rajasthan-renewable-curtailment-continues-as-grid-constraints-limit-evacuation)
 - Census 2011, household size — [link](https://censusindia.gov.in/nada/index.php/catalog/7117)
 - Population 2021 estimate — [link](https://www.researchgate.net/figure/Population-Projections-India-and-Rajasthan-2016-2021-2026_fig1_324839782)
 - Battery specifications — [Luminous Solar LPTT12150H product page](https://flipkart.com/luminous-solar-lptt12150h-150ah-tall-tubular-battery-60-months-warranty-inverter/p/itmc3ceda246bd9c)
