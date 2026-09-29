@@ -87,4 +87,4 @@ MIT — see LICENSE.
 
 ## Author
 
-Ayush Soni, B.Tech in Data Science, PIET, Jaipur.
+Ayush Soni, B.Tech in Data Science, Poornima Institute of Engineering and Technology, Jaipur.
