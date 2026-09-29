@@ -27,8 +27,8 @@ they're an underused, already-installed resource worth counting.
 | Curtailed capacity (mid) | 4 GW | Developers to CEA, reported [Mercom India, Jan 2026] |
 | Curtailed capacity (low/high) | 2 GW / 8 GW | Sensitivity bounds, not independently sourced |
 | Curtailed hours/day | 4 hours | Assumption, based on typical peak-solar window |
-| Usable battery capacity | 0.9 kWh | [Datasheet name/model], lead-acid, ~50% depth of discharge |
-| Round-trip efficiency | 85% | [Datasheet or standard reference] |
+| Usable battery capacity | 0.9 kWh | Luminous Solar LPTT12150H, 150Ah/12V, ~50% depth of discharge |
+| Round-trip efficiency | 85% | Luminous Solar LPTT12150H spec sheet states >80% Wh efficiency; 85% used as a mid-range estimate |
 | Households (Rajasthan) | ~15.5 million | Derived: population 79.28M (2021) ÷ avg. household size 5.1 (Census 2011) |
 | Adoption rates tested | 1%, 5%, 10% | Scenario range, not a forecast |
 
@@ -77,11 +77,10 @@ utility-scale storage and grid buildout, not distributed batteries alone.
 
 ## Sources
 
-- [Mercom India / developers-to-CEA reporting, Jan 2026] — [link](https://www.mercomindia.com/cea-proposes-mandatory-co-located-energy-storage-for-solar-wind-projects)
-- [Census 2011, household size] — [link](https://censusindia.gov.in/nada/index.php/catalog/7117)
-- [Population 2021 estimate] — [link](https://www.researchgate.net/figure/Population-Projections-India-and-Rajasthan-2016-2021-2026_fig1_324839782)
-- [Battery datasheet] — [link](https://mkp.gem.gov.in/catalog_data/catalog_support_document/buyer_documents/1208556/54/78/703/CatalogAttrs/SpecificationDocument/2021/11/23/battery-tech-specs_2021-11-23-11-09-01_2578d19eceb76d7a14e64cf1c350ab89.pdf)
-
+- Mercom India / developers-to-CEA reporting, Jan 2026 — [link](https://www.mercomindia.com/cea-proposes-mandatory-co-located-energy-storage-for-solar-wind-projects)
+- Census 2011, household size — [link](https://censusindia.gov.in/nada/index.php/catalog/7117)
+- Population 2021 estimate — [link](https://www.researchgate.net/figure/Population-Projections-India-and-Rajasthan-2016-2021-2026_fig1_324839782)
+- Battery specifications — [Luminous Solar LPTT12150H product page](https://flipkart.com/luminous-solar-lptt12150h-150ah-tall-tubular-battery-60-months-warranty-inverter/p/itmc3ceda246bd9c)
 ## License
 
 MIT — see LICENSE.
