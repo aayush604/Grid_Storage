@@ -1,13 +1,12 @@
 import numpy as np, pandas as pd
 
-curt_GW   = {"low":2, "mid":4, "high":8}   # scenarios, cite your sources
-curt_hours = 4                              # assumption, state it
-usable_kWh = 0.9                            # lead-acid, from datasheet
+curt_GW   = {"low":2, "mid":4, "high":8}   
+curt_hours = 4                             
+usable_kWh = 0.9                           
 eta        = 0.85
-# households = 17_000_000                     # replace with sourced figure
 
-population_2021 = 79_281_000        # source: [cite]
-avg_household_size = 5.1            # source: Census 2011, [cite]
+population_2021 = 79_281_000       
+avg_household_size = 5.1            # source: Census 2011
 households = population_2021 / avg_household_size
 
 rows = []
