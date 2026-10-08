@@ -6,7 +6,7 @@ import numpy as np, pandas as pd
 # are +/-2x bounds chosen to show sensitivity; they are not separately verified figures.
 
 curt_GW   = {"low":2, "mid":4, "high":8}   
-curt_hours = 4                             #assuming daily window of peak curtailment risk(midday); not measured directly-- see README. 
+curt_hours = 4                             #assuming daily window of peak curtailment risk(midday); not measured directly, see README. 
 
 usable_kWh = 0.9                           #usable battery capacity per household, lead-acid,from Luminous LPTT12150H datasheet (150Ah, 12V, ~80% DoD)
 
