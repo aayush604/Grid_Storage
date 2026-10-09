@@ -52,10 +52,9 @@ def absorbed_GWh(households, adopt, usable_kWh, eta):
 # Sanity check on the function's arithmetic using a fixed, round number
 # (17,000,000) chosen specifically so the result is easy to verify by hand.
 # This is NOT the household figure used in the pipeline above (15,545,294,
-# from the Census-derived calculation) -- it's a deliberately separate,
+# from the Census-derived calculation.
 # hand-checkable test of the formula itself, independent of which
 # household estimate ends up being used.
-
 
 assert abs(absorbed_GWh(17_000_000, 0.05, 0.9, 0.85) - 0.9) < 1e-6
 assert abs(absorbed_GWh(17_000_000, 0.05, 0.9, 0.85) / (4 * 4) - 0.05625) < 1e-6
