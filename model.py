@@ -42,7 +42,7 @@ df.to_csv("result.csv", index=False)
 
 # # manual check: mid scenario, 5% adoption
 manual = (households * 0.05 * usable_kWh / eta / 1e6) / (4 * 4) * 100
-print("the manual check is:", manual)
+print("the result of manual check is:", manual)
 
 
 def absorbed_GWh(households, adopt, usable_kWh, eta):
