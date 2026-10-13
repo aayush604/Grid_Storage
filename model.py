@@ -1,6 +1,6 @@
 import numpy as np, pandas as pd
 
-#Curtailment scenarios (GW): illustrative sensitivity bounds, not independent..
+#Curtailment scenarios (GW): illustrative sensitivity bounds, not independent.
 #Sourced to a specific report, "mid" (4 GW) is anchored to Mercom India's
 #reporting of up to 4 GW curtailed in Rajasthan, Mar-Aug 2025; "low" and "high"
 # are +/-2x bounds chosen to show sensitivity; they are not separately verified figures.
@@ -41,8 +41,8 @@ df.to_csv("result.csv", index=False)
 
 
 # # manual check: mid scenario, 5% adoption
-# manual = (households * 0.05 * usable_kWh / eta / 1e6) / (4 * 4) * 100
-# print("manual check:", manual)
+manual = (households * 0.05 * usable_kWh / eta / 1e6) / (4 * 4) * 100
+print("the manual check is:", manual)
 
 
 def absorbed_GWh(households, adopt, usable_kWh, eta):
